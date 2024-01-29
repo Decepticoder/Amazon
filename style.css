@@ -1,0 +1,486 @@
+/* CASCADING STYLE SHEET */
+/* it is a language that is used to add style in webpages */
+/* Color systems:  --> RGB, HEXADECIMAL */
+/* Color selectors: ==> universal selector *{}, element selector h1{}, id selector #Id{} */
+/* font-weight:normal;  this ranges from 100-900 and normal, bold, bolder and lighter*/
+/* line-height:normal;  this is the distance between two lines */
+/* text-transform:capitalize;  change the contact to desired text style uppercase, lowercase, capitalize */
+/* text align */
+/* border-width: 5px;
+/* we can use Border SHorthand, border: width style color
+and padding shorthand: top right bottom left
+and margin shorthand: top right bottom left */
+/* to create a circle, make a square box and use border radius 50% */
+/* display: inline-block;  it gives margin and padding from each side, inline only gives it from side, so inline block it better */
+/*  default position TRBLZindex has no effect */
+/*   element is relative to itself, TRBLZindex works */
+/* position: absolute;  element is relative to its cve losest positioned ancestor or the most parent element */
+/* position: fixed;  elements position is relatito the browser here */
+/* position: sticky; position based on user's flow on the webpage */
+/* z index controls the stacking of elements, MORE z-index = element on top */
+
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #131A22;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.navLogo{
+    height:55px;
+    width: 120px;
+}
+
+.border{
+    border: 1.5px solid transparent;
+    border-radius: 2px;
+}
+
+.border:hover{
+    border:1.5px solid white;
+}
+
+.logo{
+    background-image: url(amazon_logo.png);
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+
+.address{
+    height: 30px;
+    align-items:center;
+    padding-right: 14px;
+}
+
+.deliver{
+    color: #cccccc;
+    font-size: 12px;
+    margin-left: 15px;
+    font-weight:540;
+}
+
+.country{
+    color: #FFFFFF;
+    font-size: 14px;
+    margin-left: 3px;
+}
+
+.fa-location-dot{
+    color: white;
+}
+
+.countryIcon{
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-search{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 900px;
+    border: 2.5px solid transparent;
+}
+
+.input-Search{
+    height: 40px;
+    width: 100%;
+    border: none;
+    padding-left: 10px;
+}
+
+.nav-search:hover{
+    border: 2.5px solid orange;
+    border-radius: 6px;
+}
+
+.scan-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 20px;
+    color: #e6e6e6;
+    border: none;
+    background-color: white;
+    padding: 10px;
+}
+
+.image{
+    height: 20px;
+    width: 20px;
+    background-image: url(https://m.media-amazon.com/images/G/01/style-snap/MLT_Icon_x2.png);
+    background-size: cover;
+}
+
+
+.fa-magnifying-glass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 45px;
+    color: #131A22;
+    background-color: #FFC170;
+    border-radius:0 10% 10% 0;
+    font-size:larger;
+    border: none;
+}
+
+.fa-magnifying-glass:hover{
+    background-color: #eca03d;
+}
+
+.search-select{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 55px;
+    background-color: #e6e6e6;
+    border-radius:10% 0 0 10%;
+    color: #131A22;
+    border: none;
+    padding-left: 5px;
+}
+
+.search-select:hover{
+    background-color: #d3d1d1;
+}
+
+.search-select:active{
+    border: 3px solid orange;
+}
+
+.language{
+    display: flex;
+    height: 19px;
+    width: 70px;
+    align-items: center;
+    font-size: 14px;
+    position: relative;
+    padding-left: 20px;
+    top: 7px;
+    background-color: #131A22;
+}
+.flag{
+    height:12px;
+    width: 21px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Flag_of_Canada.png/1200px-Flag_of_Canada.png);
+    background-size:contain;
+}
+
+.name{
+    height: 18px;
+    width: 43px;
+    background-color: #131A22;
+    color: white;
+    padding-left: 2px;
+    border: none;
+    font-weight: bolder;
+}
+.hello{
+    font-size: 12px;
+    color: #FFFFFF;
+    padding-left: 3.5px;
+}
+
+.accounts{
+    font-size: 14px;
+    font-weight: bolder;
+    background-color: #131A22;
+    color: #FFFFFF;
+    border: none;
+}
+
+.return{
+    font-size: 12px;
+    padding-bottom: 3px;
+}
+
+.cart{
+    display: flex;
+}
+
+
+.cart-text{
+    display: absolute;
+    padding-top: 26.7px;
+}
+
+.image2{
+    height: 50px;
+    width: 50px;
+    background-color: #131A22;
+    color: #e6e6e6;
+    background-image: url(cart.png);
+    background-size: cover;
+}
+
+.zero{
+    font-size: 17px;
+    color: #f08804;
+    font-weight: bolder;
+    margin-top: 7px;
+    margin-left: 25px;
+}
+
+.panel{
+    height: 39px;
+    width: 100%;
+    color: #FFFFFF;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+}
+
+.panel-all{
+    height: 39px;
+    display: flex;
+    width: 30px;
+    font-weight: 600;
+    margin-left: 10px;
+    padding: 0 8px 0 9px;
+    align-items: center;
+    justify-content: center;
+}
+
+.panel-all-text{
+    font-size: 14px;
+    padding: 0 6px 0 6px;
+}
+
+.panel-names{
+    font-size: 14px;
+    display: flex;
+}
+
+.panel-names>p{
+    margin: 5px 0px 6px;
+    padding: 8px 9px;
+}
+
+.fa-bars{
+    scale: 1.1;
+}
+
+.panel-deals{
+    height: 39px;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: 10px;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+}
+
+.hero-section{
+    height: 350px;
+    width: 100%;
+    background-image: url(https://m.media-amazon.com/images/I/61GfWyQax7L._SX3000_.jpg); 
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-end;
+    z-index: 2;
+}
+
+.hero-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 1480px;
+    color: #0f1111;
+    background-color: #f5f6f6;
+    font-size: 14px;
+    margin-bottom: 57px;
+}
+
+a{
+    /* margin-left: 2px; */
+    color: #007185;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(229, 71, 14);
+    text-decoration:solid;
+    text-decoration-line: underline;
+}
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.boxes{
+    height: 400px;
+    width: 23%;
+    position: relative;
+    bottom: 25px;
+    background-color: #FFFFFF;
+    padding: 20px 0px 15px;
+}
+
+.box-image{
+    height: 300px;
+    background-size: cover;
+    margin: 1.5rem 0 1rem 0;
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content p{
+    color: #007185;
+}
+
+.see-more{
+    font-size: 13px;
+}
+
+.box5, .box6,.box7,.box8{
+    margin-top: 20px;
+}
+
+
+/* FOOOOOOOOOOOOOOTER */
+
+
+.top{
+    height: 19px;
+    background-color: #37475a;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 550;
+}
+.top:hover{
+    color: #FFFFFF;
+    background-color: #495664;
+    text-decoration: none;
+}
+
+.footer-content{
+    background-color: #222f3d;
+}
+
+.Links{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    color: #FFFFFF;
+}
+.Links p{
+    padding-bottom: 8px;
+    font-size: 16px;
+    font-weight: bolder;
+    margin-top: 50px;
+}
+
+.Links a{
+    font-size: 14px;
+    color: #dddddd;
+}
+
+.Links>ul>a{
+    line-height: 25px;
+    display: flex;
+}
+
+.Links ul{
+    height: 318.4px;
+}
+
+.last-content{
+    border-top: 1px solid #3a4553;
+    height: 70px;
+    background-color: #222f3d;
+    color:#dddddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+}
+
+.footer-logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+    margin-right: 200px;
+}
+
+.earth{
+    scale: 1.5;
+    top: 15px;
+    left: 24px;
+    margin-bottom: 5px;
+}
+
+.footer-language{
+    height: 22px;   
+    width: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid #848688;
+    border-radius: 3px;
+    padding: 6px 18px 6px 8px;
+    font-size: 13px;
+    margin-right: 10px;
+}
+
+.country-flag{
+    height: 16px;
+    width: 32px;
+    background-image:url(https://media.istockphoto.com/id/934017954/vector/canada-flag.jpg?s=612x612&w=0&k=20&c=QYOJlgWtujlAPzncX5H4UFPDpySMhoh2iPc_zi2t_zQ=) ;
+    background-size: cover;
+}
+
+.copyright{
+    display:block;
+    color: #FFFFFF;
+    background-color:#222f3d;
+    padding:10px 0 20px 0;
+    font-weight: 500;
+    padding-left:570px;
+}
+
+.copyright a{
+    color: #FFFFFF;
+    font-size: 12px;
+    padding: 0 10px 0 10px;
+}
+
+
+a{
+    cursor:pointer;
+}
+
+.copyright-line2{
+    margin-top: 4px;
+    margin-left: 50px;
+    color: #FFFFFF;
+    font-size: 12px;
+    padding: 0 10px 0 10px;
+} 
+
