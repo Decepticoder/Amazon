@@ -12,4 +12,5 @@ I have provided the HTML & CSS files for this project and all the other resource
 
 
 #ThankYou
-If you feel like contributing to it, feel free to do so. I am always for new advice & suggestions. 
+Since this is the first project that I have built and pushed on my Git Hub, I understand it might not be the most perfect clone. 
+If you feel like contributing to it, feel free to do so. I am always open for new advice & suggestions. 
