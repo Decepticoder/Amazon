@@ -49,7 +49,7 @@ and margin shorthand: top right bottom left */
 }
 
 .logo{
-    background-image: url(amazon_logo.png);
+    background-image: url(images/amazon_logo.png);
     height: 50px;
     width: 100%;
     background-size: cover;
@@ -222,7 +222,7 @@ and margin shorthand: top right bottom left */
     width: 50px;
     background-color: #131A22;
     color: #e6e6e6;
-    background-image: url(cart.png);
+    background-image: url(images/cart.png);
     background-size: cover;
 }
 
@@ -422,7 +422,7 @@ a:hover{
 }
 
 .footer-logo{
-    background-image: url("amazon_logo.png");
+    background-image: url("images/amazon_logo.png");
     background-size: cover;
     height: 50px;
     width: 100px;
